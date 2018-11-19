@@ -1,0 +1,110 @@
+.home-encomax {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url("/img/home.jpg");
+    background-position: 25%;
+    background-size: cover;
+    position: relative;
+}
+
+.home-encomax article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: absolute;
+    top: 40%;
+    color: white;
+}
+
+.home-encomax article h1 {
+    font-weight: 600;
+}
+
+.presentacion-home {
+    margin: 2em 0;
+    font-size: 2em;
+    text-align: center;
+}
+
+.items-home .item-home article {
+    text-align: center;
+}
+
+.items-home .item-home article h3 {
+    font-weight: 600;
+}
+
+.items-home .item-home {
+    margin-bottom: 2em;
+}
+
+.items-home .item-home img {
+    width: 100px;
+    margin-bottom: 2em;
+}
+
+.titulo-tipos-columnas-index h2 {
+    margin: 0.3em 0;
+    font-size: 2.5em;
+}
+
+.imagenes-tipos-columnas-index div img {
+    width: 260px;
+}
+
+.imagenes-tipos-columnas-index div h3 {
+    margin: 1em 0;
+}
+
+.imagenes-tipos-columnas-index div {
+    margin: 2em 0;
+
+}
+
+.imagenes-tipos-columnas-index div a {
+    padding: 0.8em 5em;
+    color: white;
+    background-color: grey;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.imagenes-tipos-columnas-index div a:hover {
+    background-color: rgb(189, 189, 189);
+}
+
+.novedades-index {
+    width: 100%;
+    padding: 3em 0;
+    background-color: rgb(191, 191, 191);
+    margin-top: 3em;
+}
+
+
+.novedades-index div .imagen-novedades img {
+    width: 250px;
+}
+
+.novedades-index div article h3 {
+    font-size: 2em;
+}
+
+.novedades-index div article p {
+    font-size: 1.3em;
+    margin-bottom: 2em;
+}
+
+.novedades-index div article a {
+    padding: 0.5em 3em;
+    color: white;
+    background-color: grey;
+    font-size: 1.5em;
+    text-decoration: none;
+}
